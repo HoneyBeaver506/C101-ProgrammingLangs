@@ -18,6 +18,19 @@ color default
 ```
 
 ---
+# 📄 All Files
+```dataview 
+TABLE WITHOUT ID
+  file.link as "📄 File",
+  file.folder as "📁 Folder",
+  dateformat(file.mtime, "MMM dd, yyyy HH:mm") as "🕐 Modified",
+  round(file.size / 1024) + " KB" as "💾 Size"
+FROM #programming/clang 
+SORT ASC
+```
+
+
+
 
 ## 📄 Recent Files
 

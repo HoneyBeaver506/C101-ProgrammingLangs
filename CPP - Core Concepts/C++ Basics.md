@@ -40,7 +40,6 @@ Comments are hints that are added to the code to make it easier to read and unde
 - `/**/` Multi-Lined Comments
 
 
----
 # C++ Keywords and Identifiers
 
 ## Keywords
@@ -88,7 +87,7 @@ double AccountBalance;
 - Kebab Case: Same as snake case but instead of using an underscore, we use a hyphen. EX: `last-name`
 - Pascal Case: Names with this case have their starting letters capitalied. EX: `LastName`
 
-----
+
 # C++ Variables, Literals & Constants
 ## Variables
 Variables are basically storage areas, where a value is stored. A unique ID is given to identify and call the variable name
@@ -111,15 +110,6 @@ The scope of a variable refers to the region of a program where that variable ca
 - **Local Scope:** These are the variables that are declared within a function or block having local scope. Thus, they can only be accessed from within that function or block.
 - **Global Scope:** Those variables that are declared outside all functions have global scope. Hence, they can be accessed from any part of the program.
 - **Static Variables:** Static variables in C++ have a limited scope for the function where they are initialised and retain their value even after function execution is completed.
-
-![[Screenshot 2025-05-29 at 2.58.57 PM.jpg]]
-
-
-
-
-
-
-
 ## Constants
 Constants are basically variables with unchangeable/mutable values. This means that their value cannot be changed or it will produce an error.
 ```cpp
@@ -433,7 +423,7 @@ The number is: 70
 */
 ```
 
----
+
 ## Type Modifiers
 | Data Type            | Size (in Bytes) | Meaning                                                                                      |
 | -------------------- | --------------- | -------------------------------------------------------------------------------------------- |
@@ -449,26 +439,6 @@ The number is: 70
 | `unsigned char`      | 1               | Used for characters.  <br>Range **0** to **255**.                                            |
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-----
 # C++ Operators
 | **Operator Type**              | **Operators**                              | **Description**                                                                                |
 | ------------------------------ | ------------------------------------------ | ---------------------------------------------------------------------------------------------- |
@@ -503,4 +473,5 @@ Assignment Operators:
 **References**
 <!-- Links to pages not referenced in the content. see: [[related note]] because <reason> -->
 - see::  [[C++ Cheat Sheet & Quick Reference.pdf]]
+- see::[[C++ Variables]] -> More in depth information
 
